@@ -1,0 +1,156 @@
+{
+    "libros": [
+        {
+            "id": "08834c50-4db2-48be-acd5-ad46c1d4c407",
+            "tipo": "LibroFisico",
+            "titulo": "Don Quijote",
+            "autor": "Cervantes",
+            "isbn": "9788437604947",
+            "anio": 1605,
+            "genero": "Clásico",
+            "disponible": true,
+            "ubicacion": "Estante A-1",
+            "num_ejemplares": 2
+        },
+        {
+            "id": "751448cb-9c3e-4738-baad-800672f807cc",
+            "tipo": "LibroFisico",
+            "titulo": "Cien Años de Soledad",
+            "autor": "G. Márquez",
+            "isbn": "9780307350435",
+            "anio": 1967,
+            "genero": "Literatura",
+            "disponible": true,
+            "ubicacion": "Estante A-2",
+            "num_ejemplares": 3
+        },
+        {
+            "id": "b507ed6e-10b5-4f84-8aba-b37555552766",
+            "tipo": "LibroFisico",
+            "titulo": "El Principito",
+            "autor": "Saint-Exupéry",
+            "isbn": "9780156013987",
+            "anio": 1943,
+            "genero": "Infantil",
+            "disponible": true,
+            "ubicacion": "Estante B-1",
+            "num_ejemplares": 5
+        },
+        {
+            "id": "884cea68-8b38-4e21-b691-16eee05509f1",
+            "tipo": "LibroFisico",
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "isbn": "9780451524935",
+            "anio": 1949,
+            "genero": "Distopía",
+            "disponible": true,
+            "ubicacion": "Estante C-1",
+            "num_ejemplares": 4
+        },
+        {
+            "id": "6df9d818-ae88-4b09-9d7f-56dcd0012e0f",
+            "tipo": "LibroFisico",
+            "titulo": "Breve Historia del Tiempo",
+            "autor": "S. Hawking",
+            "isbn": "9788432232305",
+            "anio": 1988,
+            "genero": "Ciencia",
+            "disponible": true,
+            "ubicacion": "Estante D-1",
+            "num_ejemplares": 1
+        },
+        {
+            "id": "62c81468-b0f6-4ea0-859f-3d54204c8966",
+            "tipo": "LibroDigital",
+            "titulo": "Aprende Python",
+            "autor": "Guido",
+            "isbn": "9781111111111",
+            "anio": 2022,
+            "genero": "Tech",
+            "disponible": true,
+            "formato": "PDF",
+            "tamano_mb": 10.5,
+            "url_descarga": "http://python.org"
+        },
+        {
+            "id": "d8e94a43-4f77-405b-9de7-b49ee39348bc",
+            "tipo": "LibroDigital",
+            "titulo": "Clean Code",
+            "autor": "Robert Martin",
+            "isbn": "9780132350884",
+            "anio": 2008,
+            "genero": "Software",
+            "disponible": true,
+            "formato": "EPUB",
+            "tamano_mb": 5.2,
+            "url_descarga": "http://cleancode.com"
+        },
+        {
+            "id": "d9e8e079-ed2c-45a4-825b-b2a43cb7d884",
+            "tipo": "LibroDigital",
+            "titulo": "El Hobbit",
+            "autor": "J.R.R. Tolkien",
+            "isbn": "9780345339683",
+            "anio": 1937,
+            "genero": "Fantasía",
+            "disponible": true,
+            "formato": "MOBI",
+            "tamano_mb": 8.0,
+            "url_descarga": "http://hobbit.com"
+        },
+        {
+            "id": "43b3c533-0f86-4b3c-8254-5f64ef131846",
+            "tipo": "LibroDigital",
+            "titulo": "Inteligencia Artificial",
+            "autor": "Russell",
+            "isbn": "9780136042594",
+            "anio": 2009,
+            "genero": "Ciencia",
+            "disponible": true,
+            "formato": "PDF",
+            "tamano_mb": 25.0,
+            "url_descarga": "http://ai.com"
+        },
+        {
+            "id": "282f3eba-2a4d-4fe2-b8e4-3d98caeb0d3e",
+            "tipo": "LibroDigital",
+            "titulo": "La Metamorfosis",
+            "autor": "Franz Kafka",
+            "isbn": "9788420651361",
+            "anio": 1915,
+            "genero": "Ficción",
+            "disponible": true,
+            "formato": "EPUB",
+            "tamano_mb": 1.5,
+            "url_descarga": "http://kafka.com"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": "790ca5ca-a244-4562-a479-ea2ec885111a",
+            "tipo": "Profesor",
+            "nombre": "Antigravity AI",
+            "correo": "antigravity@google.com",
+            "departamento": "Advanced Coding",
+            "libros_prestados": []
+        },
+        {
+            "id": "0e7370b3-4553-4f81-bdbb-fc0a4cf3f9bd",
+            "tipo": "Alumno",
+            "nombre": "Jocelyn Silva",
+            "correo": "jo@correo.com",
+            "matricula": "MAT-4548",
+            "libros_prestados": []
+        },
+        {
+            "id": "97c99065-2b91-4c12-86a4-cfe3c7df6d13",
+            "tipo": "Profesor",
+            "nombre": "Dr. House",
+            "correo": "house@correo.com",
+            "departamento": "Diagnóstico",
+            "libros_prestados": []
+        }
+    ],
+    "prestamos": []
+}
